@@ -16,6 +16,12 @@ The first test trains the perceptron on data_1.txt, and prints the accuracy.
 The second test trains the perceptron on data_2.txt, and runs it on the data in data_1.txt.
 
 # Function descriptions for perceptron.py
+
+X = samples (a list of samples, where each sample is the same dimension. The dimension can be anything, but it just needs to be the same for each sample.)
+Y = labels for each sample.
+w = perceptron weights
+b = perceptron bias
+
 ## perceptron_train(X,Y)
 Here is the process for how my perceptron model works.
 - First, we initilize weights, equal to the number of items in X.
