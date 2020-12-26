@@ -4,7 +4,7 @@ sys.path.insert(1, 'Project2')
 
 import numpy as np
 import perceptron as p
-import gradient_descent as gd
+
 
 
 def load_data(fname):
